@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Portals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/vanilla-calendar-min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo-main">
+            <img src="./images/logo-light-blue.png" alt="">
+        </div>
+        <div class="right-bar-header">
+            <span class="login-username">George Martin</span>
+            <img class="user-img" src="./images/userimage.jpg" alt="">
+            <a href="javascript:void(0)" class="notification has-notification">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 20 23">
+                    <defs>
+                        <style>
+                            .a {
+                                fill: #fff;
+                            }
+                        </style>
+                    </defs>
+                    <path class="a"
+                        d="M308.7,402.315a2.33,2.33,0,0,0,2.349-2.3h-4.7a2.335,2.335,0,0,0,2.355,2.3Zm7.645-6.9v-6.323a7.43,7.43,0,0,0-5.882-7.243v-.809a1.763,1.763,0,0,0-3.525,0v.809a7.43,7.43,0,0,0-5.882,7.243v6.323l-2.355,2.3v1.151h20v-1.151Zm0,0"
+                        transform="translate(-298.703 -379.315)" />
+                </svg>
+            </a>
+        </div>
+        <button class="main-menu-handler"><span></span><span></span><span></span></button>
+    </header>
+
+    <div class="dashboard-main-wrapper">
+
+        <div class="left-panel">
+            <div class="left-panel-wrapper">
+                <div class="right-bar-header">
+                    <span class="login-username">George Martin</span>
+                    <img class="user-img" src="./images/userimage.jpg" alt="">
+                    <a href="javascript:void(0)" class="notification has-notification">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 20 23">
+                            <defs>
+                                <style>
+                                    .a {
+                                        fill: #fff;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="a"
+                                d="M308.7,402.315a2.33,2.33,0,0,0,2.349-2.3h-4.7a2.335,2.335,0,0,0,2.355,2.3Zm7.645-6.9v-6.323a7.43,7.43,0,0,0-5.882-7.243v-.809a1.763,1.763,0,0,0-3.525,0v.809a7.43,7.43,0,0,0-5.882,7.243v6.323l-2.355,2.3v1.151h20v-1.151Zm0,0"
+                                transform="translate(-298.703 -379.315)" />
+                        </svg>
+                    </a>
+                </div>
+                <ul>
+                    <li class="panel-menu active">
+                        <a href="javascript:void(0)"><img src="./images/dashboard-icon.svg" alt=""></a>
+                    </li>
+                    <li class="panel-menu">
+                        <a href="javascript:void(0)"><img src="./images/compass.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dashboard-actual">
+            <div class="row">
+                <div class="col-xl-6 mb-xl-0 mb-4">
+                    <div class="card">
+                        <h4 class="font-18">Course Activity (Weekly)</h4>
+                        <div class="progress-block">
+                            <img src="./images/progress-img.png" alt="">
+                        </div>
+                        <div class="card-status">
+                            <div class="status-one">
+                                <span class="blue">-</span>
+                                <strong class="font-16">Completed</strong>
+                            </div>
+                            <div class="status-one">
+                                <span class="pink">-</span>
+                                <strong class="font-16">Completed</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="card">
+                        <h4 class="font-18">Course Activity (Weekly)</h4>
+                        <div class="progress-block">
+                            <img src="./images/progress-img.png" alt="">
+                        </div>
+                        <div class="card-status">
+                            <div class="status-one">
+                                <span class="skyblue">-</span>
+                                <strong class="font-16">Completed</strong>
+                            </div>
+                            <div class="status-one">
+                                <span class="violet">-</span>
+                                <strong class="font-16">Completed</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 mb-4">
+                    <h3 class="section-title pt-3">Overview</h3>
+                </div>
+                <div class="col">
+                    <div class="card overview-one total-course">
+                        <div class="overview-icon pink">
+                            <img src="./images/phonebook.svg" alt="">
+                        </div>
+                        <div class="overview-dtls">
+                            <p>Total Course</p>
+                            <h5>06</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card overview-one inprogress">
+                        <div class="overview-icon violet">
+                            <img src="./images/book.svg" alt="">
+                        </div>
+                        <div class="overview-dtls">
+                            <p>Inprogress</p>
+                            <h5>04</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card overview-one completed">
+                        <div class="overview-icon green">
+                            <img src="./images/graduation.svg" alt="">
+                        </div>
+                        <div class="overview-dtls">
+                            <p>Completed</p>
+                            <h5>02</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card overview-one inprogress-percentage">
+                        <div class="overview-icon orange">
+                            <img src="./images/booknphone.svg" alt="">
+                        </div>
+                        <div class="overview-dtls">
+                            <p>Inprogress Courses</p>
+                            <h5>67 %</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card overview-one completed-percentage">
+                        <div class="overview-icon blue">
+                            <img src="./images/certificate.svg" alt="">
+                        </div>
+                        <div class="overview-dtls">
+                            <p>Compeleted Courses</p>
+                            <h5>33 %</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 mb-4 d-flex justify-content-between align-items-center course-in-prog-ttl">
+                    <h3 class="section-title pt-3">Courses in Progress</h3>
+                    <a href="javascript:void(0)" class="view-all pt-3 font-18"><strong>View All</strong></a>
+                </div>
+                <div class="col-xl-4 mb-xl-0 mb-4">
+                    <div class="card">
+                        <div class="course-comp-one in-progress">
+                            <div class="course-img">
+                                <img src="./images/demo-course-img.jpg" alt="">
+                                <button class="course-menu-toggler">
+                                    <div><span></span><span></span><span></span></div>
+                                </button>
+                                <div class="course-inside-menu">
+                                    <ul>
+                                        <li><a href="javascript:void(0)"><img src="./images/resume.svg"
+                                                    alt="">Resume</a></li>
+                                        <li><a href="javascript:void(0)"><img src="./images/trash.svg" alt="">Delete</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="course-details">
+                                <h4 class="course-main-title">High Performance Teams - Remote Workforce</h4>
+                                <div class="course-info-row">
+                                    <div class="img">
+                                        <img src="./images/category.svg" alt="">
+                                    </div>
+                                    <span class="cat-name">Category:</span>
+                                    <span class="course-category">Entertainment</span>
+                                </div>
+                                <div class="course-info-row">
+                                    <div class="img">
+                                        <img src="./images/category.svg" alt="">
+                                    </div>
+                                    <span class="cat-name">Enrolled On:</span>
+                                    <span class="course-category">Jul 05, 2021</span>
+                                </div>
+                                <div class="course-info-row">
+                                    <div class="img">
+                                        <img src="./images/completed.svg" alt="">
+                                    </div>
+                                    <span class="cat-name">Completed (%):</span>
+                                    <span class="course-category">100</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 mb-xl-0 mb-4">
+                    <div class="card">
+                        <div class="course-comp-one in-progress">
+                            <div class="course-img">
+                                <img src="./images/demo-course-img.jpg" alt="">
+                                <button class="course-menu-toggler">
+                                    <div><span></span><span></span><span></span></div>
+                                </button>
+                                <div class="course-inside-menu">
+                                    <ul>
+                                        <li><a href="javascript:void(0)"><img src="./images/resume.svg"
+                                                    alt="">Resume</a></li>
+                                        <li><a href="javascript:void(0)"><img src="./images/trash.svg" alt="">Delete</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="course-details">
+                                <h4 class="course-main-title">New Archiving and Records Management</h4>
+                                <div class="course-info-row">
+                                    <div class="img">
+                                        <img src="./images/category.svg" alt="">
+                                    </div>
+                                    <span class="cat-name">Category:</span>
+                                    <span class="course-category">Entertainment</span>
+                                </div>
+                                <div class="course-info-row">
+                                    <div class="img">
+                                        <img src="./images/category.svg" alt="">
+                                    </div>
+                                    <span class="cat-name">Enrolled On:</span>
+                                    <span class="course-category">Jul 05, 2021</span>
+                                </div>
+                                <div class="course-info-row">
+                                    <div class="img">
+                                        <img src="./images/completed.svg" alt="">
+                                    </div>
+                                    <span class="cat-name">Completed (%):</span>
+                                    <span class="course-category">100</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="course-comp-one in-progress">
+                            <div class="course-img">
+                                <img src="./images/demo-course-img.jpg" alt="">
+                                <button class="course-menu-toggler">
+                                    <div><span></span><span></span><span></span></div>
+                                </button>
+                                <div class="course-inside-menu">
+                                    <ul>
+                                        <li><a href="javascript:void(0)"><img src="./images/resume.svg"
+                                                    alt="">Resume</a></li>
+                                        <li><a href="javascript:void(0)"><img src="./images/trash.svg" alt="">Delete</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="course-details">
+                                <h4 class="course-main-title">High Performance Teams - Remote Workforce</h4>
+                                <div class="course-info-row">
+                                    <div class="img">
+                                        <img src="./images/category.svg" alt="">
+                                    </div>
+                                    <span class="cat-name">Category:</span>
+                                    <span class="course-category">Entertainment</span>
+                                </div>
+                                <div class="course-info-row">
+                                    <div class="img">
+                                        <img src="./images/category.svg" alt="">
+                                    </div>
+                                    <span class="cat-name">Enrolled On:</span>
+                                    <span class="course-category">Jul 05, 2021</span>
+                                </div>
+                                <div class="course-info-row">
+                                    <div class="img">
+                                        <img src="./images/completed.svg" alt="">
+                                    </div>
+                                    <span class="cat-name">Completed (%):</span>
+                                    <span class="course-category">100</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashborad-right-bar">
+            <div class="right-bar-header">
+                <span class="login-username">George Martin</span>
+                <img class="user-img" src="./images/userimage.jpg" alt="">
+                <a href="javascript:void(0)" class="notification has-notification"><img src="./images/notification.svg"
+                        alt=""></a>
+            </div>
+            <div class="middle-wrapper">
+                <div class="calendar-wrapper">
+                    <div id="myCalendar" class="vanilla-calendar" style="margin-bottom: 20px"></div>
+                </div>
+                <div class="dashboard-activity">
+                    <h3 class="section-title">Activity</h3>
+                    <div class="activity-one">
+                        <p>Build your learning routine in LMS Portal. Find your best course here!</p>
+                        <span>Time: 10:00 AM</span>
+                    </div>
+                    <div class="activity-one">
+                        <p>Final exams finish!</p>
+                        <span>Time: 10:00 AM</span>
+                    </div>
+                    <div class="activity-one">
+                        <p>Assignment Submit.</p>
+                        <span>Time: 10:00 AM</span>
+                    </div>
+                </div>
+            </div>
+            <div class="completed-course">
+                <div class="wrapper">
+                    <h3 class="section-title">Completed Course</h3>
+                    <a href="javascript:void(0)" class="view-all">View All</a>
+                </div>
+                <div class="course-comp-one">
+                    <div class="course-img">
+                        <img src="./images/demo-course-img.jpg" alt="">
+                        <button class="course-menu-toggler">
+                            <div><span></span><span></span><span></span></div>
+                        </button>
+                        <div class="course-inside-menu">
+                            <ul>
+                                <li><a href="javascript:void(0)"><img src="./images/resume.svg" alt="">Resume</a></li>
+                                <li><a href="javascript:void(0)"><img src="./images/trash.svg" alt="">Delete</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="course-details">
+                        <h4 class="course-main-title">Course with Scorm Lessons</h4>
+                        <div class="course-info-row">
+                            <div class="img">
+                                <img src="./images/category.svg" alt="">
+                            </div>
+                            <span class="cat-name">Category:</span>
+                            <span class="course-category">Entertainment</span>
+                        </div>
+                        <div class="course-info-row">
+                            <div class="img">
+                                <img src="./images/completed.svg" alt="">
+                            </div>
+                            <span class="cat-name">Completed (%):</span>
+                            <span class="course-category">100</span>
+                        </div>
+                        <div class="course-info-row">
+                            <div class="img">
+                                <img src="./images/category.svg" alt="">
+                            </div>
+                            <span class="cat-name">Enrolled On:</span>
+                            <span class="course-category">Jul 05, 2021</span>
+                        </div>
+                        <div class="course-info-row">
+                            <div class="img">
+                                <img src="./images/comp-on.svg" alt="">
+                            </div>
+                            <span class="cat-name">Completed On</span>
+                            <span class="course-category">Sept 05, 2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-comp-one">
+                    <div class="course-img">
+                        <img src="./images/demo-course-img.jpg" alt="">
+                        <button class="course-menu-toggler">
+                            <div><span></span><span></span><span></span></div>
+                        </button>
+                        <div class="course-inside-menu">
+                            <ul>
+                                <li><a href="javascript:void(0)"><img src="./images/resume.svg" alt="">Resume</a></li>
+                                <li><a href="javascript:void(0)"><img src="./images/trash.svg" alt="">Delete</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="course-details">
+                        <h4 class="course-main-title">PPT Test Course</h4>
+                        <div class="course-info-row">
+                            <div class="img">
+                                <img src="./images/category.svg" alt="">
+                            </div>
+                            <span class="cat-name">Category:</span>
+                            <span class="course-category">Entertainment</span>
+                        </div>
+                        <div class="course-info-row">
+                            <div class="img">
+                                <img src="./images/completed.svg" alt="">
+                            </div>
+                            <span class="cat-name">Completed (%):</span>
+                            <span class="course-category">100</span>
+                        </div>
+                        <div class="course-info-row">
+                            <div class="img">
+                                <img src="./images/category.svg" alt="">
+                            </div>
+                            <span class="cat-name">Enrolled On:</span>
+                            <span class="course-category">Jul 05, 2021</span>
+                        </div>
+                        <div class="course-info-row">
+                            <div class="img">
+                                <img src="./images/comp-on.svg" alt="">
+                            </div>
+                            <span class="cat-name">Completed On</span>
+                            <span class="course-category">Sept 05, 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/vanilla-calendar-min.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
