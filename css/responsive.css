@@ -355,6 +355,9 @@
     .left-panel .right-bar-header .notification{
         display: none;
     }
+    .middle-wrapper, .course-comp-one{
+        border-radius: 15px;
+    }
 }
 
 @media (max-width: 480px){
