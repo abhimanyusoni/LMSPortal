@@ -1,12 +1,9 @@
 /* Course-menu-toggler-js */
 
-$('.course-menu-toggler').click(function () {
+$('.course-menu-toggler').click(function (event) {
     $('.course-inside-menu').removeClass('opened');
-    if($(this).siblings('.course-inside-menu').hasClass('opened')){
-        $(this).siblings('.course-inside-menu').addClass('opened');
-    } else{
-        $(this).siblings('.course-inside-menu').removeClass('opened');
-    }
+    event.preventDefault();
+    $(this).siblings('.course-inside-menu').toggleClass('opened');
 })
 
 $(document).mouseup(function (e) {
