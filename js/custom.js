@@ -1,6 +1,7 @@
 /* Course-menu-toggler-js */
 
 $('.course-menu-toggler').click(function () {
+    $('.course-inside-menu').removeClass('opened');
     $(this).siblings('.course-inside-menu').toggleClass('opened');
 })
 
