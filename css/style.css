@@ -739,4 +739,23 @@ header .right-bar-header {
 .left-panel .right-bar-header {
   display: none;
 }
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  -webkit-transition: none;
+  top: 10px !important;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 14px;
+  padding: 6px 15px;
+  font-family: 'Open Sans';
+}
 /*# sourceMappingURL=style.css.map */

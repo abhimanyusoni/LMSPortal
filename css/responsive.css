@@ -54,10 +54,12 @@
         text-overflow: ellipsis;
         font-size: 16px;
     }
-    .course-comp-one.in-progress{
+
+    .course-comp-one.in-progress {
         min-height: 390px;
     }
-    .vanilla-calendar .vanilla-calendar-btn{
+
+    .vanilla-calendar .vanilla-calendar-btn {
         height: 38px;
     }
 }
@@ -75,157 +77,199 @@
         left: 15px;
         right: 15px;
     }
-    .completed-course .wrapper .view-all{
+
+    .completed-course .wrapper .view-all {
         font-size: 16px;
     }
 }
 
-@media (max-width: 1480px){
-    .section-title{
+@media (max-width: 1480px) {
+    .section-title {
         font-size: 20px;
     }
-    .dashborad-right-bar{
+
+    .dashborad-right-bar {
         width: 400px;
     }
-    .course-comp-one{
+
+    .course-comp-one {
         display: block;
     }
-    .course-comp-one .course-img, .course-comp-one .course-img img{
+
+    .course-comp-one .course-img,
+    .course-comp-one .course-img img {
         width: 100%;
     }
-    .course-comp-one .course-details{
+
+    .course-comp-one .course-details {
         width: 100%;
         padding-top: 15px;
         padding-left: 0;
         padding-bottom: 10px;
     }
-    .course-info-row .img, .course-info-row .img img{
+
+    .course-info-row .img,
+    .course-info-row .img img {
         width: 17px;
     }
+
     .dashboard-main-wrapper .dashboard-actual {
         width: calc(100% - 485px);
         margin-left: 85px;
         margin-top: 80px;
     }
-    .dashboard-main-wrapper .left-panel{
+
+    .dashboard-main-wrapper .left-panel {
         padding: 75px 12px 20px;
     }
-    .dashboard-main-wrapper .dashboard-actual .overview-one h5{
+
+    .dashboard-main-wrapper .dashboard-actual .overview-one h5 {
         font-size: 18px;
     }
-    .font-18{
+
+    .font-18 {
         font-size: 16px;
     }
-    .font-16{
+
+    .font-16 {
         font-size: 14px;
     }
-    .dashboard-main-wrapper .dashboard-actual .card-status .status-one span{
+
+    .dashboard-main-wrapper .dashboard-actual .card-status .status-one span {
         width: 12px;
         height: 12px;
         margin-right: 10px;
     }
-    .dashboard-main-wrapper .dashboard-actual .card-status .status-one{
+
+    .dashboard-main-wrapper .dashboard-actual .card-status .status-one {
         margin: 0 12px;
     }
-    .middle-wrapper .dashboard-activity .activity-one p{
+
+    .middle-wrapper .dashboard-activity .activity-one p {
         font-size: 14px;
         line-height: 1.7;
     }
-    .middle-wrapper .dashboard-activity .activity-one{
+
+    .middle-wrapper .dashboard-activity .activity-one {
         padding: 12px 0;
     }
-    .course-comp-one.in-progress .course-img img{
+
+    .course-comp-one.in-progress .course-img img {
         height: 150px;
     }
-    .course-comp-one.in-progress{
+
+    .course-comp-one.in-progress {
         min-height: 325px;
     }
-    .course-comp-one.in-progress .course-details{
+
+    .course-comp-one.in-progress .course-details {
         padding-top: 16px;
     }
-    .dashboard-main-wrapper .dashboard-actual .overview-one{
+
+    .dashboard-main-wrapper .dashboard-actual .overview-one {
         min-width: 190px;
         margin-bottom: 25px;
     }
-    .course-in-prog-ttl{
+
+    .course-in-prog-ttl {
         margin-top: 0 !important;
     }
-    .dashboard-main-wrapper .dashboard-actual .overview-one.inprogress{
+
+    .dashboard-main-wrapper .dashboard-actual .overview-one.inprogress {
         background-position: center !important;
     }
-    .dashboard-main-wrapper .dashboard-actual .progress-block{
+
+    .dashboard-main-wrapper .dashboard-actual .progress-block {
         height: 160px;
     }
-    .course-comp-one .course-img .course-inside-menu li a{
+
+    .course-comp-one .course-img .course-inside-menu li a {
         font-size: 14px;
     }
-    .logo-main img{
+
+    .logo-main img {
         max-width: 200px;
     }
 }
 
-@media (max-width: 1200px){
-    .course-comp-one.in-progress .course-details .course-main-title{
+@media (max-width: 1200px) {
+    .course-comp-one.in-progress .course-details .course-main-title {
         font-size: 14px;
     }
-    .card{
+
+    .card {
         padding: 14px;
         border-radius: 24px;
     }
-    .course-comp-one .course-img img{
+
+    .course-comp-one .course-img img {
         border-radius: 26px;
     }
-    .course-info-row .course-category{
+
+    .course-info-row .course-category {
         font-size: 12px;
     }
-    .course-info-row .cat-name{
+
+    .course-info-row .cat-name {
         white-space: nowrap;
     }
-    .course-info-row .img, .course-info-row .img img{
+
+    .course-info-row .img,
+    .course-info-row .img img {
         width: 15px;
     }
 }
 
-@media (max-width: 1199px){
-    .font-18{
+@media (max-width: 1199px) {
+    .font-18 {
         font-size: 14px;
     }
-    .completed-course .wrapper .view-all{
+
+    .completed-course .wrapper .view-all {
         font-size: 14px;
     }
-    .course-comp-one.in-progress{
+
+    .course-comp-one.in-progress {
         min-height: auto;
     }
-    .course-comp-one .course-img .course-inside-menu li a{
+
+    .course-comp-one .course-img .course-inside-menu li a {
         font-size: 12px;
     }
-    .vanilla-calendar .vanilla-calendar-btn{
+
+    .vanilla-calendar .vanilla-calendar-btn {
         height: 35px;
     }
-    .vanilla-calendar .vanilla-calendar-date span{
+
+    .vanilla-calendar .vanilla-calendar-date span {
         width: 38px;
         height: 38px;
     }
-    .section-title{
+
+    .section-title {
         font-size: 18px;
     }
-    .dashboard-main-wrapper .dashboard-actual{
+
+    .dashboard-main-wrapper .dashboard-actual {
         padding: 24px;
     }
-    .course-comp-one.in-progress .course-img img{
+
+    .course-comp-one.in-progress .course-img img {
         max-height: 200px;
         height: auto;
     }
-    .dashborad-right-bar{
+
+    .dashborad-right-bar {
         border-top-left-radius: 55px;
-        border-bottom-left-radius: 55px;    
+        border-bottom-left-radius: 55px;
     }
-    .dashboard-main-wrapper .dashboard-actual .overview-one{
+
+    .dashboard-main-wrapper .dashboard-actual .overview-one {
         min-height: 200px;
     }
 }
 
-@media (max-width: 991px){
+@media (max-width: 991px) {
     .dashborad-right-bar {
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
@@ -233,65 +277,85 @@
         width: calc(100% - 85px);
         margin-left: auto;
     }
-    .vanilla-calendar .vanilla-calendar-btn{
+
+    .vanilla-calendar .vanilla-calendar-btn {
         height: 42px;
     }
-    .middle-wrapper .dashboard-activity .activity-one:first-of-type{
+
+    .middle-wrapper .dashboard-activity .activity-one:first-of-type {
         margin-top: 10px;
     }
-    .vanilla-calendar .vanilla-calendar-date span{
+
+    .vanilla-calendar .vanilla-calendar-date span {
         font-size: 13px;
     }
-    header .right-bar-header{
+
+    header .right-bar-header {
         display: flex;
         color: #fff;
     }
-    header.site-header{
+
+    header.site-header {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 20px 30px;
     }
-    .right-bar-header .notification.has-notification::after{
+
+    .right-bar-header .notification.has-notification::after {
         border-color: #1F262D;
     }
+
     .dashboard-main-wrapper .dashboard-actual {
         width: calc(100% - 85px);
         margin-left: 85px;
         margin-top: 90px;
     }
-    .dashboard-main-wrapper .dashboard-actual .progress-block{
+
+    .dashboard-main-wrapper .dashboard-actual .progress-block {
         height: auto;
     }
-    .dashborad-right-bar{
+
+    .dashborad-right-bar {
         margin-top: 20px;
     }
-    .dashborad-right-bar .right-bar-header{
+
+    .dashborad-right-bar .right-bar-header {
         display: none;
     }
-    .middle-wrapper{
+
+    .middle-wrapper {
         margin-top: 5px;
+    }
+
+    .right-bar-header .login-username {
+        color: #fff;
     }
 }
 
-@media (max-width: 767px){
-    .main-menu-handler{
+@media (max-width: 767px) {
+    .main-menu-handler {
         display: inline-block;
     }
-    header .right-bar-header .login-username, header .right-bar-header .user-img{
+
+    header .right-bar-header .login-username,
+    header .right-bar-header .user-img {
         display: none;
     }
-    .left-panel .right-bar-header{
+
+    .left-panel .right-bar-header {
         display: flex;
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
         color: #fff;
     }
-    .dashboard-main-wrapper .left-panel ul .panel-menu{
+
+    .dashboard-main-wrapper .left-panel ul .panel-menu {
         margin: 30px auto 0;
     }
-    .dashboard-main-wrapper .left-panel{
+
+    .dashboard-main-wrapper .left-panel {
         width: 100%;
         height: 100vh;
         z-index: 90;
@@ -300,68 +364,102 @@
         justify-content: center;
         left: -100%;
     }
-    .dashboard-main-wrapper .left-panel.showed{
+
+    .dashboard-main-wrapper .left-panel.showed {
         left: 0;
     }
-    .dashboard-main-wrapper .left-panel .left-panel-wrapper{
+
+    .dashboard-main-wrapper .left-panel .left-panel-wrapper {
         transform: translateY(-50px);
     }
+
     .dashboard-main-wrapper .dashboard-actual {
         width: 100%;
         margin-left: 0;
         margin-top: 75px;
         padding: 30px 15px;
     }
+
     .card {
         padding: 15px;
         border-radius: 15px;
     }
-    .dashborad-right-bar{
+
+    .dashborad-right-bar {
         width: 100%;
         padding: 30px 15px;
     }
-    .vanilla-calendar .vanilla-calendar-btn{
+
+    .vanilla-calendar .vanilla-calendar-btn {
         height: 35px;
     }
-    .vanilla-calendar .vanilla-calendar-week{
+
+    .vanilla-calendar .vanilla-calendar-week {
         padding: 0 5px;
     }
-    .vanilla-calendar .vanilla-calendar-week span{
+
+    .vanilla-calendar .vanilla-calendar-week span {
         font-size: 13px;
     }
-    .vanilla-calendar .vanilla-calendar-header{
+
+    .vanilla-calendar .vanilla-calendar-header {
         padding: 10px 12px;
     }
-    .middle-wrapper .dashboard-activity{
+
+    .middle-wrapper .dashboard-activity {
         padding: 20px 15px;
     }
-    .course-comp-one .course-img img{
+
+    .course-comp-one .course-img img {
         border-radius: 10px;
     }
-    header.site-header{
+
+    header.site-header {
         padding: 15px 20px;
         justify-content: flex-start;
     }
-    header .right-bar-header{
+
+    header .right-bar-header {
         margin-left: auto;
         margin-right: 18px;
     }
-    .logo-main img{
+
+    .logo-main img {
         max-width: 150px;
     }
-    .dashboard-main-wrapper .dashboard-actual{
+
+    .dashboard-main-wrapper .dashboard-actual {
         margin-top: 58px;
     }
-    .left-panel .right-bar-header .notification{
+
+    .left-panel .right-bar-header .notification {
         display: none;
     }
-    .middle-wrapper, .course-comp-one{
+
+    .middle-wrapper,
+    .course-comp-one {
         border-radius: 15px;
+    }
+
+    .left-panel .right-bar-header .login-username {
+        display: block;
+    }
+
+    .left-panel .right-bar-header .user-img {
+        display: block;
+        margin: 20px auto 0;
+    }
+
+    .left-panel .right-bar-header .dropdown-menu {
+        top: 120px !important;
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
     }
 }
 
-@media (max-width: 480px){
-    .dashborad-right-bar{
+@media (max-width: 480px) {
+    .dashborad-right-bar {
         margin-top: 0;
     }
 }
