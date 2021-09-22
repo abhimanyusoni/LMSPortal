@@ -1,8 +1,8 @@
 /* Course-menu-toggler-js */
 
 $('.course-menu-toggler').click(function (event) {
-    $('.course-inside-menu').removeClass('opened');
     event.preventDefault();
+    $('.course-inside-menu').removeClass('opened');
     $(this).siblings('.course-inside-menu').toggleClass('opened');
 })
 
