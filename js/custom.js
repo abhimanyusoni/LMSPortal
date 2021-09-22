@@ -2,7 +2,11 @@
 
 $('.course-menu-toggler').click(function () {
     $('.course-inside-menu').removeClass('opened');
-    $(this).siblings('.course-inside-menu').toggleClass('opened');
+    if($(this).siblings('.course-inside-menu').hasClass('opened')){
+        $(this).siblings('.course-inside-menu').addClass('opened');
+    } else{
+        $(this).siblings('.course-inside-menu').removeClass('opened');
+    }
 })
 
 $(document).mouseup(function (e) {
