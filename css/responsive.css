@@ -278,7 +278,7 @@
     .main-menu-handler{
         display: inline-block;
     }
-    header .right-bar-header{
+    header .right-bar-header .login-username, header .right-bar-header .user-img{
         display: none;
     }
     .left-panel .right-bar-header{
@@ -340,12 +340,20 @@
     }
     header.site-header{
         padding: 15px 20px;
+        justify-content: flex-start;
+    }
+    header .right-bar-header{
+        margin-left: auto;
+        margin-right: 18px;
     }
     .logo-main img{
         max-width: 150px;
     }
     .dashboard-main-wrapper .dashboard-actual{
         margin-top: 58px;
+    }
+    .left-panel .right-bar-header .notification{
+        display: none;
     }
 }
 
