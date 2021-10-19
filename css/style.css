@@ -29,6 +29,29 @@ body {
   background-color: #F5F8FA;
 }
 
+body.content-learning-page header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body.content-learning-page header .right-bar-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+body.content-learning-page header .right-bar-header .login-username {
+  color: #fff;
+}
+
 a {
   text-decoration: none;
   color: #1F262D;
@@ -92,6 +115,10 @@ header .right-bar-header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.dashboard-main-wrapper .left-panel ul .panel-menu:hover {
+  background: rgba(0, 123, 255, 0.247);
 }
 
 .dashboard-main-wrapper .left-panel ul .panel-menu a {
@@ -757,5 +784,85 @@ header .right-bar-header {
   font-size: 14px;
   padding: 6px 15px;
   font-family: 'Open Sans';
+}
+
+/* 18-10-21 */
+.dashboard-actual.learning-path-main {
+  width: calc(100% - 142px);
+}
+
+.learning-content-wrapper .learning_one {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.102);
+          box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.102);
+  border-radius: 15px;
+  padding: 32px 30px 32px 45px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.learning-content-wrapper .learning_one:first-child {
+  margin-top: 30px;
+}
+
+.learning-content-wrapper .learning_one .launch-btn {
+  display: inline-block;
+  padding: 6px 30px;
+  color: #fff;
+  background: rgba(0, 123, 255, 0.6);
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.learning-content-wrapper .learning_one .launch-btn:hover {
+  background: #007bff;
+}
+
+.learning-content-wrapper .learning_one .learner_name {
+  font: 700 18px "Open Sans";
+  color: #11142D;
+  max-width: 400px;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.learning-content-wrapper .learning_one .learning-date,
+.learning-content-wrapper .learning_one .learning-done {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #74787D;
+  font-size: 14px;
+  max-width: 280px;
+  width: 100%;
+  padding-right: 20px;
+  white-space: nowrap;
+}
+
+.learning-content-wrapper .learning_one .learning-date img,
+.learning-content-wrapper .learning_one .learning-done img {
+  margin-right: 8px;
+}
+
+.learning-content-wrapper .learning_one .learning-done {
+  max-width: 160px;
+  width: 100%;
+}
+
+.learning-content-wrapper .learning_one div span {
+  font-weight: 700;
+  color: #1F262D;
+  margin-left: 4px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 /* Course-menu-toggler-js */
 
-$('.course-menu-toggler').click(function (event) {
+$('.course-menu-toggler').click(function () {
     $(this).siblings('.course-inside-menu').toggleClass('opened');
 })
 

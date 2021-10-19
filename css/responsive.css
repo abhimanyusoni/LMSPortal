@@ -62,6 +62,9 @@
     .vanilla-calendar .vanilla-calendar-btn {
         height: 38px;
     }
+    .dashboard-actual.learning-path-main{
+        width: calc(100% - 102px);
+    }
 }
 
 @media (max-width: 1600px) {
@@ -190,6 +193,15 @@
     .logo-main img {
         max-width: 200px;
     }
+
+    .dashboard-actual.learning-path-main{
+        width: calc(100% - 88px);
+        margin-top: 95px;
+    }
+
+    .learning-content-wrapper .learning_one{
+        padding: 28px 25px 28px 35px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -266,6 +278,29 @@
 
     .dashboard-main-wrapper .dashboard-actual .overview-one {
         min-height: 200px;
+    }
+    .learning-content-wrapper .learning_one:first-child{
+        margin-top: 25px;
+    }
+
+    .learning-content-wrapper .learning_one .learner_name{
+        font-size: 15px;
+        line-height: 1.6;
+        padding-right: 15px;
+    }
+
+    .learning-content-wrapper .learning_one {
+        padding: 24px 20px 24px 28px;
+    }
+    .learning-content-wrapper .learning_one .learning-date, .learning-content-wrapper .learning_one .learning-done{
+        font-size: 12px;
+        padding-right: 15px;
+    }
+    .learning-content-wrapper .learning_one .learning-date img, .learning-content-wrapper .learning_one .learning-done img{
+        max-width: 16px;
+    }
+    .learning-content-wrapper .learning_one .launch-btn{
+        padding: 4px 22px;
     }
 }
 
@@ -455,6 +490,30 @@
         left: 50% !important;
         right: auto !important;
         transform: translateX(-50%) !important;
+    }
+    .learning-content-wrapper .learning_one{
+        padding: 5px 15px 20px 20px;
+        position: relative;
+        display: block;
+    }
+    .learning-content-wrapper .learning_one > div{
+        max-width: 100% !important;
+        width: 100%;
+        margin: 12px 0;
+    }
+    .learning-content-wrapper .learning_one .launch-btn{
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        font-size: 12px;
+        padding: 3px 18px;
+    }
+    .learning-content-wrapper .learning_one .learner_name{
+        max-width: calc(100% - 120px) !important;
+        font-size: 14px;
+    }
+    .learning-content-wrapper .learning_one .learning-date img, .learning-content-wrapper .learning_one .learning-done img{
+        max-width: 14px;
     }
 }
 
