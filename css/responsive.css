@@ -300,7 +300,10 @@
         max-width: 16px;
     }
     .learning-content-wrapper .learning_one .launch-btn{
-        padding: 4px 22px;
+        padding: 5px 18px;
+    }
+    .learning-content-wrapper .learning_one .launch-btn img{
+        max-width: 16px;
     }
 }
 
@@ -503,10 +506,14 @@
     }
     .learning-content-wrapper .learning_one .launch-btn{
         position: absolute;
-        right: 16px;
-        top: 16px;
-        font-size: 12px;
-        padding: 3px 18px;
+        right: 14px;
+        top: 14px;
+        padding: 6px 9px 6px 16px;
+        font-size: 0;
+        justify-content: center;
+    }
+    .learning-content-wrapper .learning_one .launch-btn img{
+        max-width: 14px;
     }
     .learning-content-wrapper .learning_one .learner_name{
         max-width: calc(100% - 120px) !important;

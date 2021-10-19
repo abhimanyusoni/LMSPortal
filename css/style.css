@@ -815,11 +815,21 @@ header .right-bar-header {
 
 .learning-content-wrapper .learning_one .launch-btn {
   display: inline-block;
-  padding: 6px 30px;
+  padding: 7px 20px 7px 20px;
   color: #fff;
   background: rgba(0, 123, 255, 0.6);
   border-radius: 50px;
   font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.learning-content-wrapper .learning_one .launch-btn img {
+  margin-right: 8px;
 }
 
 .learning-content-wrapper .learning_one .launch-btn:hover {

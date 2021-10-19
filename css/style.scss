@@ -734,11 +734,17 @@ header {
 
         .launch-btn{
             display: inline-block;
-            padding: 6px 30px;
+            padding: 7px 20px 7px 20px;
             color: #fff;
             background: rgba(0, 123, 255, 0.6);
             border-radius: 50px;
             font-size: 14px;
+            display: flex;
+            align-items: center;
+
+            img{
+                margin-right: 8px;
+            }
 
             &:hover{
                 background: rgba(0, 123, 255, 1);
